@@ -1,0 +1,19 @@
+xterm*faceName: mononoki
+xterm*faceSize: 16
+xterm*foreground: gray
+xterm*background: black
+xterm*utf8: 1
+xterm*eightBitInput: false
+xterm*metaSendsEscape: true
+xterm*selectToClipboard: true
+
+URxvt.background: #000000
+URxvt.foreground: gray90
+URxvt.visualBell: true
+URxvt.mapAlert: true
+URxvt*font: xft:mononoki:size=16:antialias=true,xft:DejaVu Sans:size=14:antialias=true,xft:Sauce Code Powerline:antialias=true:hinting=true:size=14
+URxvt.scrollBar: false
+URxvt.perl-ext-common: font-size
+URxvt.keysym.C-j: perl:font-size:increase
+URxvt.keysym.C-k: perl:font-size:decrease
+URxvt.keysym.C-0: perl:font-size:reset
