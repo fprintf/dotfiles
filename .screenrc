@@ -1,0 +1,8 @@
+defutf8 on
+term xterm-256color
+startup_message off
+hardstatus on
+hardstatus alwayslastline
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %m-%d %{W} %c %{g}]'
+termcapinfo xterm* ti@:te@
+vbell on
